@@ -1,5 +1,5 @@
 ### Cypress UI automation project with CircleCI and Telegram notifications
-[![CircleCI](https://circleci.com/gh/Leitirion/My-ui-automation/tree/master.svg?style=svg)](https://circleci.com/gh/Leitirion/My-ui-automation/tree/master)
+[![CircleCI](https://circleci.com/gh/Leitirion/My_ui_automation.svg?style=svg)](https://circleci.com/gh/Leitirion/My_ui_automation)
 
 ### Table of Contents
 
