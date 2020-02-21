@@ -1,4 +1,4 @@
-it('visit URL, type email and password, sign in, add todo and logout', function () {
+it('visit URL, type email and password, sign in, add todo, del todo and logout', function () {
     cy.visit(Cypress.env('URL'));
     cy.get('[id="email"]').click({ force: true }).type('123@gmail.com', { force: true });
     cy.get('[id="password"]').click({ force: true }).type('123456', { force: true });
