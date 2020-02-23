@@ -14,6 +14,7 @@ it('visit URL, type email and password, signup, logout', function () {
     cy.get('[id="password"]').click().type('123456');
     cy.get('[id="reg_button"]').click({ force: true });
     cy.get('[id="back_button"]').click({ force: true });
+    cy.wait(1000);
     cy.get('.title_for_homepage').should('have.text', "Hello to your login page!");
     cy.get('[id="logout"]').click();
     cy.wait(1000);
