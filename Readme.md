@@ -37,4 +37,5 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
 2. Run test on your local machine with command: ```npm run cy:run``` or open cypress menu with ```npm run cy:open```.
 3. If test succeed, then add all your changes, commit them and push to your repository on github.
 
-### [TBD]
+### Examples
+[TBD]
