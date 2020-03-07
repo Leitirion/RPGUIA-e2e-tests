@@ -14,6 +14,7 @@
 - Installation
 - Running (locally / CI)
 - Examples
+- How to write tests
 
 ### Installation
  1. Fork current repository.
@@ -41,3 +42,5 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
 In this repository in folder ```<project_name>/cypress/integration``` you cand find some tests, one of them - ```visit.js```.
 This test visit your URL and find in the title ```Welcome to RPGUIA!```. (If you want, you can change this title.)
 If its true then test succeed, else test failed.
+### How to write tests
+[TBD]
