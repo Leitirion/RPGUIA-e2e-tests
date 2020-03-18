@@ -1,6 +1,4 @@
-
-
-it('visit URL, type email and password, sign in, logout', function () {
+it('visit URL, type email and password, sign in  and logout', function () {
     cy.visit(Cypress.env('URL'));
     cy.get('[id="email"]').click({ force: true }).type('123@gmail.com', { force: true });
     cy.get('[id="password"]').click({ force: true }).type('123456', { force: true });
