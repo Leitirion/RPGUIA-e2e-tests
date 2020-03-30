@@ -25,7 +25,7 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
  5. Then type ```npm i```.
  6. Go to https://t.me/botfather , create new bot by ```/newbot``` command, remember ```TELEGRAM_BOT_TOKEN```.
  7. Add bot to your group or start chat with bot.
- 8. Go to ```https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/getUpdates``` to get chatId and copy chatId with ```-```.
+ 8. Go to ```https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/getUpdates``` to get ```chatId``` and copy ```chatId``` with ```-```.
  9. At ```Circleci > Settings  > Contexts (https://circleci.com/gh/organizations/<YOUR_USER_NAME>/settings#contexts)``` create context ```rpguia``` (If you want to change name of context, then also change name at ```.circleci/config.yml ```).
  10. At ```Circleci > Settings > Contexts (https://circleci.com/gh/organizations/<YOUR_USER_NAME>/settings#contexts)``` create environment variables: 
  - ```TELEGRAM_CHAT_ID``` from  step (7)
@@ -35,7 +35,7 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
 
 ###  Running (locally / CI)
 1. Create file ```cypress.env.json``` in root folder.
-2. Run test on your local machine with command ```npm run cy:run```. (Also you can open cypress menu with ```npm run cy:open```. Choose your test and then run it.)
+2. Run test on your local machine with command ```npm run cy:run```. (Also you can open cypress menu with ```npm run cy:open``` then choose your test and then run it.)
 3. If test succeed, then add all (```gaa```) your changes, commit (```git commit```) them and push (```ggp```) to your repository on github.
 
 ### Examples
