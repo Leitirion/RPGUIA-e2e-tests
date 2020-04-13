@@ -29,7 +29,7 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
  9. At ```Circleci > Settings  > Contexts (https://circleci.com/gh/organizations/<YOUR_USER_NAME>/settings#contexts)``` create context ```rpguia``` (If you want to change name of context, then also change name at ```.circleci/config.yml ```).
  10. At ```Circleci > Settings > Contexts (https://circleci.com/gh/organizations/<YOUR_USER_NAME>/settings#contexts)``` create environment variables: 
  - ```TELEGRAM_CHAT_ID``` from  step (7)
- - ```CYPRESS_URL```
+ - ```CYPRESS_URL``` and add ```YOUR_URL```
  - ```TELEGRAM_BOT_TOKEN``` from step (5)
  - ```NODE_ENV``` with value ```production```
 
