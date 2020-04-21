@@ -41,6 +41,6 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
 
 ### Examples
 In this repository in folder ```<project_name>/cypress/integration``` you cand find some tests, one of them - ```visit.js```.
-This test visit URL and is looking for ```Welcome to RPGUIA!``` in the title. (If you need, you can change this title to your value in test). If its true then test succeed, else test failed.
+This test visit URL and is looking for ```Welcome to RPGUIA!``` in the title. (If you need, you can change this title to your value in URL). If its true then test succeed, else test failed.
 ### How to write tests
 [TBD]
