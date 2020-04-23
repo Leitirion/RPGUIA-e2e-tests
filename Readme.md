@@ -34,7 +34,7 @@ https://circleci.com/dashboard -> add projects -> set up project (choose the for
  - ```NODE_ENV``` with value ```production```
 
 ###  Running (locally / CI)
-1. Create file ```cypress.env.json``` in your porject's root folder.
+1. Create file ```cypress.env.json``` in porject's root folder.
 2. Open file ```cypress.env.json``` and add ```{ YOUR_URL }```.
 3. Run test on your local machine with command ```npm run cy:run```. (Also you can open cypress menu with ```npm run cy:open``` then choose which test you need and run it.)
 4. If test succeed, then add all (```gaa```) your changes, commit (```git -commit 'branch_name'```) them and push (```ggp```) to your repository on github.
