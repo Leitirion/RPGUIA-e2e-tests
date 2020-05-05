@@ -19,4 +19,3 @@ it('visit URL, type email and password, signup, logout', function () {
     cy.visit(Cypress.env('URL')).title().should('eq', "Welcome to RPGUIA!");
 })
 //cy.get('.title_for_homepage').should('have.text', "Hello ");
-//cy.get('.title_for_homepage').should('have.text', "Hello ");
