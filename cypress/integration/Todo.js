@@ -12,7 +12,3 @@ it('visit URL, type email and password, sign in, add todo, delete todo and logou
     cy.wait(1000);
     cy.visit(Cypress.env('URL')).title().should('eq', "Welcome to RPGUIA!");
 })
-
-/*cy.get('[id="del_button"]').first().click({ force: true });
-    cy.get('li[class="todo list-group-item"]').get('span[id="item_text"]').first().should('have.text', "A new todo name");
-    cy.get('[id="logout"]').click();*/
