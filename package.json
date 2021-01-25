@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "browserslist": "^4.16.1",
-        "caniuse-lite": "^1.0.30001177",
+        "caniuse-lite": "^1.0.30001179",
         "cypress": "^6.3.0"
     },
     "husky": {
