@@ -23,7 +23,7 @@
         "@commitlint/config-conventional": "^11.0.0",
         "eslint": "^7.20.0",
         "eslint-plugin-cypress": "^2.11.2",
-        "husky": "^5.0.9"
+        "husky": "^5.1.0"
     },
     "dependencies": {
         "browserslist": "^4.16.3",
