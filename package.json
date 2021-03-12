@@ -28,7 +28,7 @@
     "dependencies": {
         "browserslist": "^4.16.3",
         "caniuse-lite": "^1.0.30001191",
-        "cypress": "^6.5.0"
+        "cypress": "^6.6.0"
     },
     "husky": {
         "hooks": {
