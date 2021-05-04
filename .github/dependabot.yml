@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: caniuse-lite
+    versions:
+    - 1.0.30001180
+    - 1.0.30001183
+    - 1.0.30001187
+    - 1.0.30001189
+    - 1.0.30001190
+    - 1.0.30001192
+    - 1.0.30001194
+    - 1.0.30001195
+    - 1.0.30001196
+    - 1.0.30001197
+    - 1.0.30001198
+    - 1.0.30001200
+    - 1.0.30001202
+    - 1.0.30001207
+    - 1.0.30001216
+  - dependency-name: cypress
+    versions:
+    - 6.7.1
+    - 7.0.0
+    - 7.0.1
+  - dependency-name: husky
+    versions:
+    - 5.1.0
+    - 5.1.2
