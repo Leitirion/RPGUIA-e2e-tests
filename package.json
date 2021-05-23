@@ -22,7 +22,7 @@
         "@commitlint/cli": "^12.1.1",
         "@commitlint/config-conventional": "^12.1.4",
         "eslint": "^7.25.0",
-        "eslint-plugin-cypress": "^2.11.2",
+        "eslint-plugin-cypress": "^2.11.3",
         "husky": "^6.0.0"
     },
     "dependencies": {
