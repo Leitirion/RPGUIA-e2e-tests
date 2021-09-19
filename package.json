@@ -20,7 +20,7 @@
     "homepage": "https://github.com/Leitirion/Project1#readme",
     "devDependencies": {
         "@commitlint/cli": "^13.1.0",
-        "@commitlint/config-conventional": "^12.1.4",
+        "@commitlint/config-conventional": "^13.1.0",
         "eslint": "^7.30.0",
         "eslint-plugin-cypress": "^2.12.1",
         "husky": "^7.0.1"
