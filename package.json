@@ -29,7 +29,7 @@
         "browserslist": "^4.20.3",
 
         "caniuse-lite": "^1.0.30001368",
-        "cypress": "^9.6.1"
+        "cypress": "^10.5.0"
     },
     "husky": {
         "hooks": {
